@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><img class="img" style="cursor: pointer;" src="<?php echo ($url); ?>" alt="" width="100" height="100" onclick="select_img()" title="选择上传图片">

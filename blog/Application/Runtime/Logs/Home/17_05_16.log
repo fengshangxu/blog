@@ -1,0 +1,260 @@
+[ 2017-05-16T16:47:35+08:00 ] ::1 /blog/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_article` ORDER BY add_time desc LIMIT 6   [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002660s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-05-16T16:47:36+08:00 ] ::1 /blog/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-16T16:51:02+08:00 ] ::1 /blog/index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-05-16T16:51:02+08:00 ] ::1 /blog/index.php/Home/About/js/silder_2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+ERR: 非法操作:js
+
+[ 2017-05-16T16:51:05+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-05-16T16:51:05+08:00 ] ::1 /blog/index.php/Home/Timeline/js/silder_2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+ERR: 非法操作:js
+
+[ 2017-05-16T16:51:12+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-05-16T16:51:12+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline/p/js/silder_2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-05-16T16:51:15+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-05-16T16:51:15+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline/p/js/silder_2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-05-16T16:51:18+08:00 ] ::1 /blog/index.php/Home/Timeline/timeline.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `blog_say` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_say` WHERE ( is_show = 'yes' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_say` WHERE ( is_show = 'yes' ) ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-05-16T16:51:18+08:00 ] ::1 /blog/index.php/Home/Timeline/js/silder_2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:js
+
+[ 2017-05-16T16:51:19+08:00 ] ::1 /blog/index.php/Home/Message/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `blog_message` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_message` WHERE ( pid = 0 ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT * FROM `blog_message` WHERE ( pid = 0 ) ORDER BY add_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_message`  [ RunTime:0.0006s ]
+SQL: SELECT `username` FROM `blog_message` WHERE ( id=83 ) LIMIT 1   [ RunTime:0.0102s ]
+SQL: SELECT `username` FROM `blog_message` WHERE ( id=83 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `blog_message` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `blog_message` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `blog_message` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
